@@ -13,6 +13,8 @@ This engine:
 - Scans a configurable set of market series, staying within Kalshi's API rate limits
 - Logs every detected opportunity with its ticker, title, implied prices, and estimated profit per contract
 
+The valid categories are: Health, Social, Companies, Business, Transportation, Exotics, Mentions, Economics, Climate and Weather, World, Entertainment, Politics, Science and Technology, Education, Crypto, AI, Sports, Financials, Elections, Commodities - must include capital letter 
+
 ## What it doesn't do
 
 This is a **detection** tool, not a trading bot — it identifies and logs opportunities but does not place real orders. It also doesn't currently check available order size before flagging a gap, so a detected opportunity isn't guaranteed to be tradeable at meaningful volume.
